@@ -1,0 +1,94 @@
+/* Selected tag {
+    property : value
+*/
+
+    main {
+        padding-left: 20%;
+        line-height: 2rem;
+    }
+
+    header {
+        margin-left: 20%;
+    }
+    
+    strong {
+        color: black;}
+
+    p {
+        color: dimgray;
+        padding-left: 0%;
+        line-height: 1rem;
+    }
+    video {
+        margin-left: 0%;
+        border-radius: 5%;
+        object-fit: contain;
+        object-position: 20%;}
+    .controls {
+        width: 100%;
+        height: 9%; /* of figure's height */
+        position: relative;}
+
+    .controls[data-state="hidden"] {
+        display: none;
+    }
+        
+    .controls[data-state="visible"] {
+        display: flex;
+    }
+
+    track {
+        height: 50%;
+        text-indent: 0;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: black;
+        color: beige;
+        border-radius: none;
+    }
+
+    .controls > * {
+        float: left;
+        width: 10%;
+        height: 50%;
+        margin-left: 5%;
+        display: block;
+    }
+
+    .controls .progress {
+        cursor: pointer;
+        width: 75%;
+        }
+          
+    .controls .progress {
+        cursor: pointer;
+        width: 60%;
+        }
+
+    .controls button {
+        border: none;
+        cursor: pointer;
+        background: blue;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+    .controls button:hover,
+    .controls button:focus {
+        opacity: 0.5;
+        }
+    
+    .controls progress {
+        display: block;
+        width: 50%;
+        height: 70%;
+        margin-top: 0.125rem;
+        border: none;
+        color: blue;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+          }
+    
+    
+    

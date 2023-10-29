@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shulammite">
+    <meta name="keywords" content="podcast, interview">
+    <link rel="stylesheet" href="podcast.css">
+    <title>Podcast</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fautina <> John (User interview)</h1>
+        <p style="color: darkgrey;"> Created on Sep 17, 11:54 AM</p>
+    </header>
+
+    <main style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        <p> <strong>Project:</strong> Staying connected in post-pandemic world </p>
+        <p> <strong>Moderator:</strong> Speaker 1 </p>
+        <p> <strong>Participant:</strong> Speaker 2 </p>
+
+        <video id="video"  
+            controls preload="metadata" 
+            width="50%"
+            src="https://ia902504.us.archive.org/31/items/cosdaz-Veterans_AZ_Interview_-_Hidden_Heroes/Veterans_AZ_Interview_-_Hidden_Heroes.mp4" 
+            poster="https://media.istockphoto.com/id/1262889180/photo/hr-manger-listening-female-applicant-during-job-interview.jpg?s=612x612&w=0&k=20&c=5lEmtgCT_yB5-wb3V0OVWvCtPIZhemlVXolAUEYA_ZM="
+           
+            <track
+                label="English"
+                kind="subtitles"
+                srclang="en"
+                src="captions/vtt/sintel-en.vtt"
+                default />
+            <track
+                label="English"
+                kind="subtitles"
+                srclang="en"
+                src="https://archive.org/download/cosdaz-Veterans_AZ_Interview_-_Hidden_Heroes/Veterans_AZ_Interview_-_Hidden_Heroes.en.vtt"
+                default />
+            <track
+                label="Deutsch"
+                kind="subtitles"
+                srclang="de"
+                src="https://archive.org/download/cosdaz-Veterans_AZ_Interview_-_Hidden_Heroes/Veterans_AZ_Interview_-_Hidden_Heroes.en.vtt" />
+          <track
+                label="Español"
+                kind="subtitles"
+                srclang="es"
+                src="https://archive.org/download/cosdaz-Veterans_AZ_Interview_-_Hidden_Heroes/Veterans_AZ_Interview_-_Hidden_Heroes.en.vtt" />
+
+          <p> Sorry, your browser doesn't support embedded videos, but don't worry, you can
+            <a href="https://archive.org/details/cosdaz-Veterans_AZ_Interview_-_Hidden_Heroes">download it</a>
+            and watch it with your favorite video player! </p>
+
+        </video>
+
+        <div id="video controls" class="controls" data-state="hidden">
+            <button id="playpause" type="button" data-state="play">Play/Pause</button>
+            <button id="stop" type="button" data-state="stop"> Stop </button>
+            <div class="progress">
+                <progress id="progress" value="0" min="0"> 
+                    <span id="progress-bar"></span>
+                </progress>
+            </div>
+
+            <button id="mute" type="button" data-state="mute">Mute/Unmute</button>
+            <button id="volinc" type="button" data-state="volup">Vol+</button>
+            <button id="voldec" type="button" data-state="voldown">vol-</button>
+            <button id="fs" type="button" data-state="go-fullscreen">full screen</button>
+            <button id="cc" type="button" data-state="captions">captions</button>
+        </div>
+    <section style="width: 50%;
+                    line-height: 5rem;">
+        <p> 00:05 <strong>Speaker 1</strong>
+            <br> <br>
+        How do you feel about the number of video calls you and your team are conducting?</p>
+
+        <p> 00:05 <strong>Speaker 2 </strong>
+            <br> <br>
+        The number of video calls as increased exponetially since our team moved to a remote environment. 
+        I feel emotionally and physically drained by the numbers of calls I receive </p>
+    </section>
+    </main>
+</body>
+</html>
